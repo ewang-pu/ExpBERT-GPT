@@ -1,0 +1,9 @@
+interpreter:
+    type: 'bert'
+    path: './bert_interpreters/bert' 
+    use_logits: False
+paths:
+    data_dir: './data/disease_custom'
+    exp_dir: 'explanations_base_0'
+    save_dir: './data/disease_custom/base_0'
+data_reader: 'babble_reader'
